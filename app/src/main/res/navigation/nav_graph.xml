@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/countryList">
+    <fragment
+        android:id="@+id/countryList"
+        android:name="com.suyash.covidate.ui.CountryList"
+        android:label="CountryList"
+        tools:layout="@layout/fragment_country_list">
+        <action
+            android:id="@+id/action_countryList_to_listCountries"
+            app:destination="@id/listCountries" />
+    </fragment>
+    <fragment
+        android:id="@+id/listCountries"
+        android:name="com.suyash.covidate.ui.ListCountries"
+        android:label="ListCountries"
+        tools:layout="@layout/fragment_list">
+        <argument
+            android:name="countrylist"
+            app:argType="com.suyash.covidate.network.CovidDataList" />
+        <action
+            android:id="@+id/action_listCountries_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.suyash.covidate.ui.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="countrydetail"
+            app:argType="com.suyash.covidate.network.CovidLocal" />
+    </fragment>
+</navigation>

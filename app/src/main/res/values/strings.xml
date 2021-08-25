@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covidate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="global">Global Covid Cases</string>
+    <string name="confirm">Confirmed:</string>
+    <string name="death">Deaths:</string>
+    <string name="recover">Recovered:</string>
+    <string name="country">Countrywise Cases</string>
+    <string name="tips">Tips On Covid-19 Prevention</string>
+    <string name="tip1">1. Clean your hands often. Use soap and water, or an alcohol-based hand rub.</string>
+    <string name="tip2">2. Maintain a safe distance from anyone who is coughing or sneezing.</string>
+    <string name="tip3">3. Stay home until it is necessary to go outside. </string>
+    <string name="tip4">4. If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance.</string>
+    <string name="tip5">5. Wear a mask.</string>
+    <string name="tip">Tips On Covid-19 Prevention</string>
+    <string name="retry">Retry</string>
+</resources>

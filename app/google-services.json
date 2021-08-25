@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671854983490",
+    "firebase_url": "https://covidate-30e88.firebaseio.com",
+    "project_id": "covidate-30e88",
+    "storage_bucket": "covidate-30e88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671854983490:android:fd019fda26a9b5d24130db",
+        "android_client_info": {
+          "package_name": "com.suyash.covidate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671854983490-qjmas1e5bn8lnihq5ciu0c2g8bams13l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlW-lsry2hjfw9p3FjoULC1rcVODoTFXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671854983490-qjmas1e5bn8lnihq5ciu0c2g8bams13l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
